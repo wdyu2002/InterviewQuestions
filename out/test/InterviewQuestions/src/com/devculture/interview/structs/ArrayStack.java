@@ -8,7 +8,7 @@ package com.devculture.interview.structs;
  */
 public class ArrayStack {
 
-    private static final int INITIAL_ARRAY_SIZE = 5;
+    private static final int INITIAL_ARRAY_SIZE = 50;
 
     /**
      * Internal array.
