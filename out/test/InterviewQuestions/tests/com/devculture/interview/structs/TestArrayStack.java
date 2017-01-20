@@ -9,7 +9,7 @@ public class TestArrayStack {
     private ArrayStack stack = null;
 
     @Before
-    public void createStack() {
+    public void init() {
         stack = new ArrayStack();
     }
 
@@ -94,6 +94,9 @@ public class TestArrayStack {
         assertTrue(stack.size() == 2);
     }
 
+    /**
+     * Make sure toString's string representation matches excepted state.
+     */
     @Test
     public void canBeRepresentedWithString() {
         assertNotNull(stack);
@@ -109,5 +112,23 @@ public class TestArrayStack {
         assertEquals(stack.toString(), "1,2,3,4,5,");
         stack.push(6);
         assertEquals(stack.toString(), "1,2,3,4,5,6,");
+    }
+
+    /**
+     * Make sure the code throws an exception when we pop an empty stack.
+     */
+    @Test(expected = IllegalStateException.class)
+    public void throwsExceptionWhenPoppingEmpty() {
+        assertNotNull(stack);
+        stack.pop();
+    }
+
+    /**
+     * Make sure the code throws an exception when we peek an empty stack.
+     */
+    @Test(expected = IllegalStateException.class)
+    public void throwsExceptionWhenPeekingEmpty() {
+        assertNotNull(stack);
+        stack.peek();
     }
 }

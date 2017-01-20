@@ -61,26 +61,26 @@ public class BSTExample implements Runnable {
     }
 
     public void run() {
-        BSTNode head = createBST();
-
-        // print smallest to largest.
-        System.out.println("-- print --");
-        head.print();
-
-        // print largest to smallest.
-        System.out.println("-- print in reverse --");
-        head.printInReverse();
-
-        // find nth node from end.
-        System.out.println("-- print nth node from end --");
-        for (int n=0; n<10; n++) {
-            BSTNode node = findNthNodeFromEnd(createBST(), n);
-            if (node == null) {
-                System.out.println(n + "th node from the end does not exist.");
-            } else {
-                System.out.println(n + "th node from the end: " + node.getValue());
-            }
-        }
+//        BSTNode head = createBST();
+//
+//        // print smallest to largest.
+//        System.out.println("-- print --");
+//        head.print();
+//
+//        // print largest to smallest.
+//        System.out.println("-- print in reverse --");
+//        head.printInReverse();
+//
+//        // find nth node from end.
+//        System.out.println("-- print nth node from end --");
+//        for (int n=0; n<10; n++) {
+//            BSTNode node = findNthNodeFromEnd(createBST(), n);
+//            if (node == null) {
+//                System.out.println(n + "th node from the end does not exist.");
+//            } else {
+//                System.out.println(n + "th node from the end: " + node.getValue());
+//            }
+//        }
     }
 
 }

@@ -74,7 +74,7 @@ public class ArrayStack {
     }
 
     /**
-     * Returns string of stack elements, comma delimited.
+     * @return string of stack elements, comma delimited.
      */
     @Override
     public String toString() {

@@ -8,7 +8,7 @@ package com.devculture.interview.structs;
  */
 public class ArrayStack {
 
-    private static final int INITIAL_ARRAY_SIZE = 50;
+    private static final int INITIAL_ARRAY_SIZE = 5;
 
     /**
      * Internal array.
@@ -74,7 +74,7 @@ public class ArrayStack {
     }
 
     /**
-     * Returns string of stack elements, comma delimited.
+     * @return string of stack elements, comma delimited.
      */
     @Override
     public String toString() {
