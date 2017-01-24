@@ -1,11 +1,13 @@
 package com.devculture.interview;
 
 /**
- * Created by dyu on 1/19/17.
+ * FizzBuzz should print fizz when the number passed in is divisible by 3.
+ * FizzBuzz should print buzz when the number passed in is divisible by 5.
+ * FizzBuzz should print fizzbuzz when the number passed in is divisible by both 3 and 5.
  */
-public class FizzBuzzExample implements Runnable {
+class FizzBuzzExample {
 
-    public String printFizzBuzz(int n) {
+    static String fizzBuzz(int n) {
         StringBuffer buffer = new StringBuffer();
         if (n == 0) {
             return "";
@@ -19,12 +21,4 @@ public class FizzBuzzExample implements Runnable {
         return buffer.toString();
     }
 
-    public void run() {
-        // fizz when %3 == 0
-        // buzz when %5 == 0
-        // fizzbuzz when %3 && %5 == 0
-        for (int i=0; i<25; i++) {
-            System.out.printf("%d %s\n", i, printFizzBuzz(i));
-        }
-    }
 }

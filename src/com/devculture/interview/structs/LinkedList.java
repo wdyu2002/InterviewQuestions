@@ -1,23 +1,26 @@
 package com.devculture.interview.structs;
 
 /**
- * Created by dyu on 1/19/17.
+ * Basic linked list implementation.
+ *
  */
 public class LinkedList {
 
-    public static class Node {
+    static class Node {
         private final int value;
         private Node next;
 
-        public Node(int value) {
+        Node(int value) {
             this.value = value;
         }
 
+        /*
         public boolean hasNext() {
             return next != null;
         }
+        */
 
-        public int getValue() {
+        int getValue() {
             return value;
         }
     }
@@ -37,11 +40,11 @@ public class LinkedList {
         }
     }
 
-    public boolean empty() {
+    boolean empty() {
         return head == null;
     }
 
-    public void append(Node n) {
+    void append(Node n) {
         if (head == null) {
             head = n;
         } else {
@@ -55,7 +58,8 @@ public class LinkedList {
     }
 
     // insert at index
-    public void insert(Node n, int index) {
+    void insert(Node n, int index) {
+        assertPositiveIndex(index);
         if (index == 0) {
             n.next = head;
             head = n;
@@ -68,22 +72,26 @@ public class LinkedList {
     }
 
     // remove at index
-    public void remove(int index) {
+    Node remove(int index) {
         assertHeadExists();
         assertPositiveIndex(index);
+        Node result;
         if (index == 0) {
+            result = head;
             head = head.next;
         } else {
             // index > 0
             Node prev = get(index-1);
+            result = prev.next;
             prev.next = prev.next == null ? null : prev.next.next;
         }
         size--;
+        return result;
     }
 
     // value at index
-    public Node get(int index) {
-        assertHeadExists();
+    Node get(int index) {
+        // assertHeadExists();
         assertPositiveIndex(index);
         int n = index;
         Node result = head;
@@ -97,21 +105,23 @@ public class LinkedList {
     }
 
     // return size of linked list.
-    public int size() {
+    int size() {
         return size;
     }
 
-    public void print() {
+    @Override
+    public String toString() {
         if (head == null) {
-            return;
+            return "";
         }
 
+        StringBuilder buf = new StringBuilder();
         Node result = head;
         do {
-            System.out.print(result.value + ", ");
+            buf.append(result.value).append(',');
             result = result.next;
         } while (result != null);
-        System.out.println();
+        return buf.toString();
     }
 
 }
