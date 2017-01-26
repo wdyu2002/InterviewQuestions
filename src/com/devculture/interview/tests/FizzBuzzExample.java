@@ -1,4 +1,4 @@
-package com.devculture.interview;
+package com.devculture.interview.tests;
 
 /**
  * FizzBuzz should print fizz when the number passed in is divisible by 3.
@@ -8,17 +8,16 @@ package com.devculture.interview;
 class FizzBuzzExample {
 
     static String fizzBuzz(int n) {
-        StringBuffer buffer = new StringBuffer();
+        StringBuilder buf = new StringBuilder();
         if (n == 0) {
             return "";
         }
         if (n%3 == 0) {
-            buffer.append("fizz");
+            buf.append("fizz");
         }
         if (n%5 == 0) {
-            buffer.append("buzz");
+            buf.append("buzz");
         }
-        return buffer.toString();
+        return buf.toString();
     }
-
 }

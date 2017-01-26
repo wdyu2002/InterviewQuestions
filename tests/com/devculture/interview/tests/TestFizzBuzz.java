@@ -1,4 +1,4 @@
-package com.devculture.interview;
+package com.devculture.interview.tests;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

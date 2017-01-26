@@ -1,4 +1,4 @@
-package com.devculture.interview;
+package com.devculture.interview.tests;
 
 import java.util.*;
 import java.util.stream.Collectors;

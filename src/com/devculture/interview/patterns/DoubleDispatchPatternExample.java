@@ -1,6 +1,6 @@
-package com.devculture.interview;
+package com.devculture.interview.patterns;
 
-public class DoubleDispatchPatternExample {
+class DoubleDispatchPatternExample {
 
     static abstract class Shape {
         /**

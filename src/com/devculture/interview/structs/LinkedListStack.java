@@ -2,7 +2,6 @@ package com.devculture.interview.structs;
 
 /**
  * Basic stack implementation built over a linked list.
- *
  */
 public class LinkedListStack {
 
@@ -37,5 +36,4 @@ public class LinkedListStack {
     public String toString() {
         return list.toString();
     }
-
 }

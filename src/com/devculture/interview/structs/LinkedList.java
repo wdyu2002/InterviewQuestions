@@ -2,7 +2,6 @@ package com.devculture.interview.structs;
 
 /**
  * Basic linked list implementation.
- *
  */
 public class LinkedList {
 
@@ -123,5 +122,4 @@ public class LinkedList {
         } while (result != null);
         return buf.toString();
     }
-
 }

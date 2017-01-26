@@ -1,14 +1,14 @@
-package com.devculture.interview;
+package com.devculture.interview.syntax;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by dyu on 1/18/17.
+ * Sample demonstrating new java 8 syntax for lambda expressions.
  */
-public class LambdaExpressionsExample implements Runnable {
+public class LambdaExpressionsExample {
 
-    public void run() {
+    public static void main(String[] args) {
         // populate list.
         List<Integer> list = new ArrayList<>();
         list.add(10);
@@ -16,22 +16,18 @@ public class LambdaExpressionsExample implements Runnable {
         list.add(30);
 
         // basic lambda notation example.
-        System.out.println("-- example 1 --");
-        list.stream().forEach((x) -> System.out.println(x));
+        list.forEach((x) -> System.out.println(x));
 
         // even simpler.
-        System.out.println("-- example 2 --");
-        list.stream().forEach(System.out::println);
+        list.forEach(System.out::println);
 
         // even simpler.
-        System.out.println("-- example 3 --");
         list.forEach(System.out::println);
 
         // basic lambda notation run example.
         new Thread(() -> System.out.println(1)).start();
 
         // multiple lines example.
-        System.out.println("-- blast off example --");
         new Thread(() -> {
             int count = 10;
             do {

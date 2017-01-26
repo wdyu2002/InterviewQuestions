@@ -1,4 +1,4 @@
-package com.devculture.interview;
+package com.devculture.interview.patterns;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
@@ -61,5 +61,4 @@ public class TestDoubleDispatchPattern {
     public void hiddenShapeCannotIntersectWithHiddenShape() {
         assertEquals(h.intersects(h), "HiddenShape never intersects HiddenShape");
     }
-
 }

@@ -119,6 +119,4 @@ public class TestLinkedList {
         list.append(new LinkedList.Node(1));
         list.get(5);
     }
-
-
 }

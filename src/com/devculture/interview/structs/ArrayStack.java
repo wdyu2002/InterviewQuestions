@@ -4,7 +4,6 @@ package com.devculture.interview.structs;
  * Basic stack implementation built over an array.
  * Internal array with initial size of 5. The stack must be able to handle array expansion when pushing new
  * elements into an already full stack.
- *
  */
 public class ArrayStack {
 

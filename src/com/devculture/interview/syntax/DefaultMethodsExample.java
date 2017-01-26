@@ -1,9 +1,9 @@
-package com.devculture.interview;
+package com.devculture.interview.syntax;
 
 /**
- * Created by dyu on 1/18/17.
+ * Sample demonstrating new java 8 syntax allowing interfaces with default methods.
  */
-public class DefaultMethodsExample implements Runnable {
+public class DefaultMethodsExample {
 
     // interface default methods example.
     private interface AnimalThatJumps {
@@ -18,15 +18,15 @@ public class DefaultMethodsExample implements Runnable {
         }
     }
 
-    private class Elephant implements AnimalThatSleeps {
+    private static class Elephant implements AnimalThatSleeps {
 
     }
 
-    private class Kangaroo implements AnimalThatJumps, AnimalThatSleeps {
+    private static class Kangaroo implements AnimalThatJumps, AnimalThatSleeps {
 
     }
 
-    public void run() {
+    public static void main(String[] args) {
         Elephant e = new Elephant();
         e.sleep();
 
