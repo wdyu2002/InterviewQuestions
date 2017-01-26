@@ -7,8 +7,8 @@ public class TestReverseString {
 
     // helper method to test all 3 sorting algorithms.
     private void testReverseStringImpl(String input, String expectedResult) {
-        assertEquals(expectedResult, ReverseStringExample.reverseStringSimple(input));
-        assertEquals(expectedResult, ReverseStringExample.reverseStringUsingStack(input));
+        assertEquals(expectedResult, ReverseString.reverseStringSimple(input));
+        assertEquals(expectedResult, ReverseString.reverseStringUsingStack(input));
     }
 
     @Test

@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Basic string reversal test.
  */
-class ReverseStringExample {
+class ReverseString {
 
     /**
      * First implementation utilizing a stack's First-In-Last-Out property.

@@ -3,7 +3,7 @@ package com.devculture.interview.tests;
 /**
  * Basic string to-lower test.
  */
-class UpperToLowerExample {
+class UpperToLower {
 
     /**
      * Convert input string to lower-case.

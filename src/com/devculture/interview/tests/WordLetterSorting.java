@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * ie. steeppe => steeepp.
  *     apple => alepp.
  */
-class WordLetterSortingExample {
+class WordLetterSorting {
 
     static class Char {
         final char c;

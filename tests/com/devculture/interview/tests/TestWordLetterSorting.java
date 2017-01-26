@@ -7,9 +7,9 @@ public class TestWordLetterSorting {
 
     // helper method to test all 3 sorting algorithms.
     private void testSortStringsImpl(String input, String expectedResult) throws Exception {
-        assertEquals(expectedResult, WordLetterSortingExample.sort1(input));
-        assertEquals(expectedResult, WordLetterSortingExample.sort2(input));
-        assertEquals(expectedResult, WordLetterSortingExample.sort3(input));
+        assertEquals(expectedResult, WordLetterSorting.sort1(input));
+        assertEquals(expectedResult, WordLetterSorting.sort2(input));
+        assertEquals(expectedResult, WordLetterSorting.sort3(input));
     }
 
     @Test
@@ -28,16 +28,16 @@ public class TestWordLetterSorting {
 
     @Test(expected = IllegalArgumentException.class)
     public void canAlg1ThrowExceptionOnNullInput() {
-        WordLetterSortingExample.sort1(null);
+        WordLetterSorting.sort1(null);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void canAlg2ThrowExceptionOnNullInput() {
-        WordLetterSortingExample.sort2(null);
+        WordLetterSorting.sort2(null);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void canAlg3ThrowExceptionOnNullInput() {
-        WordLetterSortingExample.sort3(null);
+        WordLetterSorting.sort3(null);
     }
 }

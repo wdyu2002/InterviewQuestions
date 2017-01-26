@@ -1,5 +1,7 @@
 package com.devculture.interview.structs;
 
+import java.util.Stack;
+
 /**
  * Basic BST node. Each node should contain a left & right pointer to another node,
  * respectively representing a value that is less-than or greater-than itself.
@@ -68,6 +70,29 @@ public class BSTNode {
             // warning. no insertion occurs for dupes.
             System.out.printf("Inserting duplicate node with value: %d\n", value);
         }
+    }
+
+    /**
+     * @return size of this element and its left+right sub-trees.
+     */
+    int size() {
+        int count = 1;
+        Stack<BSTNode> stack = new Stack<>();
+        stack.push(this);
+        while (!stack.isEmpty()) {
+            BSTNode node = stack.pop();
+            BSTNode left = node.getLeft();
+            BSTNode right = node.getRight();
+            if (left != null) {
+                stack.push(left);
+                count++;
+            }
+            if (right != null) {
+                stack.push(right);
+                count++;
+            }
+        }
+        return count;
     }
 
     /**
