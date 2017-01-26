@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * BST implementation with BSTNodes.
  */
-class BST {
+public class BST {
 
     private BSTNode head;
 
@@ -13,7 +13,7 @@ class BST {
         return head;
     }
 
-    void insert(Integer value) {
+    public void insert(Integer value) {
         BSTNode node = new BSTNode(value);
         if (head == null) {
             head = node;
@@ -22,13 +22,13 @@ class BST {
         }
     }
 
-    void insert(Integer ... values) {
+    public void insert(Integer ... values) {
         for (Integer value : values) {
             insert(value);
         }
     }
 
-    BSTNode getMax() {
+    public BSTNode getMax() {
         if (head == null) {
             return null;
         }
@@ -39,7 +39,7 @@ class BST {
         return tmp;
     }
 
-    BSTNode getMin() {
+    public BSTNode getMin() {
         if (head == null) {
             return null;
         }
@@ -50,7 +50,7 @@ class BST {
         return tmp;
     }
 
-    int size() {
+    public int size() {
         return (head == null) ? 0 : head.size();
     }
 }

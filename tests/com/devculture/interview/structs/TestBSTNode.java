@@ -168,16 +168,4 @@ public class TestBSTNode {
         // check right->right leaf.
         assertEquals(head.getRight().getRight().toString(), "40,");
     }
-
-    /**
-     * Can hold or reset the visited state.
-     */
-    @Test
-    public void canRememberVisited() {
-        assertNotNull(head);
-        head.setVisited(true);
-        assertTrue(head.isVisited());
-        head.setVisited(false);
-        assertFalse(head.isVisited());
-    }
 }

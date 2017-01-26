@@ -13,7 +13,6 @@ public class BSTNode {
     /**
      * A traversal flag for when we traverse the tree via DFS algorithm.
      */
-    private boolean visited;
     private BSTNode left;
     private BSTNode right;
 
@@ -37,14 +36,6 @@ public class BSTNode {
 
     public int getValue() {
         return value;
-    }
-
-    public boolean isVisited() {
-        return visited;
-    }
-
-    public void setVisited(boolean visited) {
-        this.visited = visited;
     }
 
     /**
