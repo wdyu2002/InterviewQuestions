@@ -1,3 +1,3 @@
-# InterviewQuestions
+# Katas
 
-A compilation of interview questions with unit tests.
+Bunch of random katas.

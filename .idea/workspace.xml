@@ -2,10 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b40834-5282-432f-a9be-97f3e1d5e641" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/ArrayStackExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/ArrayStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BST.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BSTNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/LinkedList$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/LinkedList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/LinkedListStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/.idea/libraries/junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/InterviewQuestions.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/com/devculture/interview/structs/TestArrayStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/com/devculture/interview/structs/TestBSTNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/ArrayStackExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/BSTExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/DefaultMethodsExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/FizzBuzzExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/LambdaExpressionsExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/LinkedListExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/LinkedListStackExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/ReverseStringExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/UpperToLowerExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/structs/ArrayStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/structs/BST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/structs/BSTNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/structs/LinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/src/com/devculture/interview/structs/LinkedListStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/tests/com/devculture/interview/structs/TestArrayStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/tests/com/devculture/interview/structs/TestBSTNode.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/InterviewQuestions.iml" afterPath="$PROJECT_DIR$/Katas.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/patterns/DoubleDispatchPatternExample.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/patterns/DoubleDispatchPatternExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/ArrayStack.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/ArrayStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/BST.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/BST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/BSTNode.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/BSTNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/DOMElement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedList.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/LinkedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedListStack.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/structs/LinkedListStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/syntax/DefaultMethodsExample.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/syntax/DefaultMethodsExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/syntax/LambdaExpressionsExample.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/syntax/LambdaExpressionsExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/FindNBiggestElements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/FindNthMaxBST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/FizzBuzz.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/FizzBuzz.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/ReverseString.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/ReverseString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/SumBST.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/SumBST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/UpperToLower.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/UpperToLower.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/WordLetterSorting.java" afterPath="$PROJECT_DIR$/src/com/devculture/katas/tests/WordLetterSorting.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/patterns/TestDoubleDispatchPattern.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/patterns/TestDoubleDispatchPattern.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestArrayStack.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/structs/TestArrayStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBST.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/structs/TestBST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBSTNode.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/structs/TestBSTNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedList.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/structs/TestLinkedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedListStack.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/structs/TestLinkedListStack.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFindNBiggestElements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFindNthMaxBST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFizzBuzz.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFizzBuzz.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestReverseString.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestReverseString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestSumBST.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestSumBST.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestToLowerString.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestToLowerString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestWordLetterSorting.java" afterPath="$PROJECT_DIR$/tests/com/devculture/katas/tests/TestWordLetterSorting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,6 +173,7 @@
     <SUITE FILE_PATH="coverage/InterviewQuestions$com_devculture_interview_tests_in_InterviewQuestions.coverage" NAME="com.devculture.interview.tests in InterviewQuestions Coverage Results" MODIFIED="1485407407339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.tests.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Katas$All_in_Katas.coverage" NAME="All in Katas Coverage Results" MODIFIED="1485587675222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestWordLetterSorting_canSortStringsAlg1.coverage" NAME="TestWordLetterSorting.canSortStringsAlg1 Coverage Results" MODIFIED="1485309036321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.*</FILTER>
     </SUITE>
@@ -149,12 +210,42 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestFindNBiggestElements.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java">
+    <leaf>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Katas.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Katas.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWordLetterSorting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestWordLetterSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +253,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindNBiggestElements.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -253,14 +344,15 @@
         <option value="$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java" />
         <option value="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java" />
         <option value="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="185" />
     <option name="y" value="23" />
-    <option name="width" value="1523" />
-    <option name="height" value="989" />
+    <option name="width" value="1440" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -281,150 +373,54 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemId" value="Katas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="syntax" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewQuestions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
+              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,6 +431,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -444,40 +441,19 @@
       <recent name="com.devculture.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFindNBiggestElements">
-    <configuration default="false" name="All in InterviewQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Katas">
     <configuration default="false" name="TestFindNBiggestElements.canFindNBiggestElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="PATTERN" value="com.devculture.katas.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="InterviewQuestions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="PACKAGE_NAME" value="com.devculture.katas.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.katas.tests.TestFindNBiggestElements" />
       <option name="METHOD_NAME" value="canFindNBiggestElements" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -495,15 +471,15 @@
     <configuration default="false" name="TestFindNBiggestElements.canReturnEmptyListWhenNIs0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="PATTERN" value="com.devculture.katas.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="InterviewQuestions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="PACKAGE_NAME" value="com.devculture.katas.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.katas.tests.TestFindNBiggestElements" />
       <option name="METHOD_NAME" value="canReturnEmptyListWhenNIs0" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -521,15 +497,15 @@
     <configuration default="false" name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="PATTERN" value="com.devculture.katas.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="InterviewQuestions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="PACKAGE_NAME" value="com.devculture.katas.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.katas.tests.TestFindNBiggestElements" />
       <option name="METHOD_NAME" value="canReturnAllElementsWhenNIsLargerThanSubTree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -547,17 +523,38 @@
     <configuration default="false" name="TestFindNBiggestElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="PATTERN" value="com.devculture.katas.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="InterviewQuestions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="PACKAGE_NAME" value="com.devculture.katas.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.katas.tests.TestFindNBiggestElements" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Katas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Katas" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -826,19 +823,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Katas" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Katas" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
       </list>
     </recent_temporary>
   </component>
@@ -861,8 +858,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFindNBiggestElements - 2017.01.27 at 22h 14m 06s.xml">
-      <configuration name="TestFindNBiggestElements" configurationId="JUnit" />
+    <history-entry file="All_in_Katas - 2017.01.27 at 23h 14m 37s.xml">
+      <configuration name="All in Katas" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestFindNBiggestElements - 2017.01.27 at 22h 24m 51s.xml">
       <configuration name="TestFindNBiggestElements" configurationId="JUnit" />
@@ -893,8 +890,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="23" width="1523" height="989" extended-state="0" />
-    <editor active="false" />
+    <frame x="185" y="23" width="1440" height="1002" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -905,14 +902,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24456522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.244373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06565988" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06527778" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29875246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36319444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -941,29 +938,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="250" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestWordLetterSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/ArrayStackExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/WordLetterSorting.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/WordLetterSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
@@ -974,14 +949,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/AmazonTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -989,7 +964,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/syntax/LambdaExpressionsExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/syntax/LambdaExpressionsExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -997,7 +972,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java" />
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
@@ -1009,10 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="false" />
-            <element signature="e#10148#10149#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1022,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1025,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/ArrayStackExample.java" />
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedListStack.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestLinkedListStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
@@ -1065,21 +1035,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1380">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/patterns/TestDoubleDispatchPattern.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/patterns/TestDoubleDispatchPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
@@ -1089,35 +1059,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedListStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/LinkedListStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/syntax/DefaultMethodsExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/syntax/DefaultMethodsExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/syntax/LambdaExpressionsExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/syntax/LambdaExpressionsExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/ArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
@@ -1125,14 +1095,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBST.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1140,28 +1110,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/ReverseString.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/UpperToLower.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/UpperToLower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/BSTNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/BSTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
@@ -1170,49 +1140,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java" />
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestWordLetterSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestToLowerString.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestToLowerString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBSTNode.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/structs/TestBSTNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestSumBST.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestSumBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="62" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestReverseString.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/WordLetterSorting.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/WordLetterSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -1222,26 +1185,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/SumBST.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/SumBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/FindNthMaxBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/patterns/DoubleDispatchPatternExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/patterns/DoubleDispatchPatternExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -1249,7 +1210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFindNthMaxBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -1259,7 +1220,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/structs/DOMElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
@@ -1269,7 +1230,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java">
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestFindNBiggestElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/katas/tests/FindNBiggestElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1277,10 +1248,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Katas.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/katas/tests/TestWordLetterSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
