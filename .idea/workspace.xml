@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b40834-5282-432f-a9be-97f3e1d5e641" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/tests/SumBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/BSTExample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/BSTFindNthMax.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/devculture/interview/tests/BSTTraversal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestBSTFindNthMax.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestBSTTraversal.java" afterPath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestSumBST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BST.class" afterPath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BSTNode.class" afterPath="$PROJECT_DIR$/out/production/InterviewQuestions/com/devculture/interview/structs/BSTNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/InterviewQuestions/com/devculture/interview/structs/TestBSTNode.class" afterPath="$PROJECT_DIR$/out/test/InterviewQuestions/com/devculture/interview/structs/TestBSTNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/BST.java" afterPath="$PROJECT_DIR$/src/com/devculture/interview/structs/BST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/devculture/interview/structs/BSTNode.java" afterPath="$PROJECT_DIR$/src/com/devculture/interview/structs/BSTNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBSTNode.java" afterPath="$PROJECT_DIR$/tests/com/devculture/interview/structs/TestBSTNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,11 +92,20 @@
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestLinkedList_canThrowExceptionWhenGettingNodeGtSize.coverage" NAME="TestLinkedList.canThrowExceptionWhenGettingNodeGtSize Coverage Results" MODIFIED="1485255911099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.structs.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/InterviewQuestions$TestFindNBiggestElements_canReturnAllElementsWhenNIsLargerThanSubTree.coverage" NAME="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree Coverage Results" MODIFIED="1485584244730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.devculture.interview.tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/InterviewQuestions$TestFindNBiggestElements.coverage" NAME="TestFindNBiggestElements Coverage Results" MODIFIED="1485584695836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.devculture.interview.tests.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestBST_canDetermineSize.coverage" NAME="TestBST.canDetermineSize Coverage Results" MODIFIED="1485406644047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.structs.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestLinkedList_canCheckEmpty.coverage" NAME="TestLinkedList.canCheckEmpty Coverage Results" MODIFIED="1485255459868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.structs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/InterviewQuestions$TestFindNBiggestElements_canFindNBiggestElements.coverage" NAME="TestFindNBiggestElements.canFindNBiggestElements Coverage Results" MODIFIED="1485583497011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.devculture.interview.tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestSumBST_sumBalancedBST.coverage" NAME="TestSumBST.sumBalancedBST Coverage Results" MODIFIED="1485413665903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.tests.*</FILTER>
@@ -134,6 +131,9 @@
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestLinkedList_canCheckSize.coverage" NAME="TestLinkedList.canCheckSize Coverage Results" MODIFIED="1485255500152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.structs.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/InterviewQuestions$TestFindNBiggestElements_canReturnEmptyListWhenNIs0.coverage" NAME="TestFindNBiggestElements.canReturnEmptyListWhenNIs0 Coverage Results" MODIFIED="1485583656602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.devculture.interview.tests.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/InterviewQuestions$TestToLowerString_canConvertStringsToLowerCase.coverage" NAME="TestToLowerString.canConvertStringsToLowerCase Coverage Results" MODIFIED="1485404878245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.devculture.interview.tests.*</FILTER>
     </SUITE>
@@ -150,41 +150,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestFindNthMaxBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java">
+      <file leaf-file-name="TestFindNBiggestElements.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-527">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="1470">
+              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1555#1556#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindNthMaxBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java">
+      <file leaf-file-name="FindNBiggestElements.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoubleDispatchPatternExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/patterns/DoubleDispatchPatternExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -267,13 +249,17 @@
         <option value="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxFromBST.java" />
         <option value="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java" />
         <option value="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java" />
+        <option value="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestDOMElements.java" />
+        <option value="$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java" />
+        <option value="$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java" />
+        <option value="$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="313" />
+    <option name="x" value="185" />
     <option name="y" value="23" />
-    <option name="width" value="1607" />
+    <option name="width" value="1523" />
     <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -294,8 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,7 +343,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,7 +351,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="patterns" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,10 +372,59 @@
               <option name="myItemId" value="interview" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="syntax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewQuestions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,111 +444,7 @@
       <recent name="com.devculture.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in InterviewQuestions">
-    <configuration default="false" name="TestSumBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestSumBST" />
-      <option name="METHOD_NAME" value="sumRandomBSTs" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestFindNthMaxBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNthMaxBST" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestFindNthMaxBST.canFindNthMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNthMaxBST" />
-      <option name="METHOD_NAME" value="canFindNthMax" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestFindNthMaxBST.canReturnSmallestValueIfNExceedsBSTSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.devculture.interview.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InterviewQuestions" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNthMaxBST" />
-      <option name="METHOD_NAME" value="canReturnSmallestValueIfNExceedsBSTSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestFindNBiggestElements">
     <configuration default="false" name="All in InterviewQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="InterviewQuestions" />
@@ -524,6 +454,110 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestFindNBiggestElements.canFindNBiggestElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InterviewQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="METHOD_NAME" value="canFindNBiggestElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestFindNBiggestElements.canReturnEmptyListWhenNIs0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InterviewQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="METHOD_NAME" value="canReturnEmptyListWhenNIs0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InterviewQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="METHOD_NAME" value="canReturnAllElementsWhenNIsLargerThanSubTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestFindNBiggestElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.devculture.interview.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InterviewQuestions" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.devculture.interview.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.devculture.interview.tests.TestFindNBiggestElements" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -792,19 +826,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSumBST" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST.canFindNthMax" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST.canReturnSmallestValueIfNExceedsBSTSize" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST.canFindNthMax" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNthMaxBST.canReturnSmallestValueIfNExceedsBSTSize" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSumBST" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canReturnEmptyListWhenNIs0" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFindNBiggestElements.canFindNBiggestElements" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in InterviewQuestions" />
       </list>
     </recent_temporary>
   </component>
@@ -827,39 +861,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_InterviewQuestions - 2017.01.26 at 00h 07m 33s.xml">
-      <configuration name="All in InterviewQuestions" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements - 2017.01.27 at 22h 14m 06s.xml">
+      <configuration name="TestFindNBiggestElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_InterviewQuestions - 2017.01.26 at 00h 07m 39s.xml">
-      <configuration name="All in InterviewQuestions" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements - 2017.01.27 at 22h 24m 51s.xml">
+      <configuration name="TestFindNBiggestElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.25 at 23h 40m 30s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements - 2017.01.27 at 22h 24m 56s.xml">
+      <configuration name="TestFindNBiggestElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.25 at 23h 40m 32s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canFindNBiggestElements - 2017.01.27 at 22h 04m 40s.xml">
+      <configuration name="TestFindNBiggestElements.canFindNBiggestElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.26 at 00h 04m 36s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canFindNBiggestElements - 2017.01.27 at 22h 04m 58s.xml">
+      <configuration name="TestFindNBiggestElements.canFindNBiggestElements" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.26 at 00h 05m 29s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canReturnAllElementsWhenNIsLargerThanSubTree - 2017.01.27 at 22h 08m 39s.xml">
+      <configuration name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.26 at 00h 06m 19s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canReturnAllElementsWhenNIsLargerThanSubTree - 2017.01.27 at 22h 08m 51s.xml">
+      <configuration name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST - 2017.01.26 at 00h 07m 28s.xml">
-      <configuration name="TestFindNthMaxBST" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canReturnAllElementsWhenNIsLargerThanSubTree - 2017.01.27 at 22h 15m 22s.xml">
+      <configuration name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST_canFindNthMax - 2017.01.25 at 23h 57m 45s.xml">
-      <configuration name="TestFindNthMaxBST.canFindNthMax" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canReturnAllElementsWhenNIsLargerThanSubTree - 2017.01.27 at 22h 17m 25s.xml">
+      <configuration name="TestFindNBiggestElements.canReturnAllElementsWhenNIsLargerThanSubTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFindNthMaxBST_canReturnSmallestValueIfNExceedsBSTSize - 2017.01.25 at 23h 57m 34s.xml">
-      <configuration name="TestFindNthMaxBST.canReturnSmallestValueIfNExceedsBSTSize" configurationId="JUnit" />
+    <history-entry file="TestFindNBiggestElements_canReturnEmptyListWhenNIs0 - 2017.01.27 at 22h 07m 37s.xml">
+      <configuration name="TestFindNBiggestElements.canReturnEmptyListWhenNIs0" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="313" y="23" width="1607" height="989" extended-state="0" />
+    <frame x="185" y="23" width="1523" height="989" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -871,14 +905,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24456522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24456522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07529558" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06565988" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37087741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29875246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -907,30 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="5012" column="47" lean-forward="false" selection-start-line="5012" selection-start-column="45" selection-end-line="5012" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="292" column="37" lean-forward="false" selection-start-line="292" selection-start-column="34" selection-end-line="292" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -942,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="250" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,9 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,26 +969,15 @@
           <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="class#Char#0;class#WordLetterSorting#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/AmazonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/AmazonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1485404965000" expanded="true" signature="280:357" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,33 +993,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java" />
     <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/structs/TestLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2640#2641#0" expanded="false" />
-            <element signature="e#2670#2671#0" expanded="false" />
-            <element signature="e#2796#2797#0" expanded="false" />
-            <element signature="e#2851#2852#0" expanded="false" />
-            <element signature="e#3362#3363#0" expanded="false" />
-            <element signature="e#3389#3390#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="5012" column="47" lean-forward="false" selection-start-line="5012" selection-start-column="45" selection-end-line="5012" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="292" column="37" lean-forward="false" selection-start-line="292" selection-start-column="34" selection-end-line="292" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,7 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="250" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,9 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,9 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1380">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,9 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,9 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <marker date="1485404965000" expanded="true" signature="280:357" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,10 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,7 +1151,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,9 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1219,23 +1169,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/BSTExample.java" />
     <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestWordLetterSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1243,9 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,9 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="62" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,9 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,43 +1226,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNthMaxBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="285">
           <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/patterns/DoubleDispatchPatternExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNthMaxBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/structs/DOMElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/devculture/interview/tests/FindNBiggestElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/devculture/interview/tests/TestFindNBiggestElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
