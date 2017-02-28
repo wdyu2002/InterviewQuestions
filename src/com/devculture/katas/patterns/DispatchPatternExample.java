@@ -1,5 +1,15 @@
 package com.devculture.katas.patterns;
 
+/**
+ * Note: IMO there are 3 major issues with this pattern:
+ *
+ * 1. If handler's makeSound(cat/dog) method was private, you will definitely get stack overflow.
+ * 2. If handler's makeSound(cat/dog) method was default, you may get stack overflow when the Vocal classes reside in a
+ *    different package, but not when they reside in the same package.
+ * 3. This means handler's makeSound(cat/dog) method MUST BE public, which might not be desired due to encapsulation
+ *    requirements.
+ *
+ */
 public class DispatchPatternExample {
 
     interface Vocal {
